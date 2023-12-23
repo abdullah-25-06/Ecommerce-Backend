@@ -1,0 +1,6 @@
+config
+package-lock.json
+package.json
+querry.sql
+req.rest
+node_modules
