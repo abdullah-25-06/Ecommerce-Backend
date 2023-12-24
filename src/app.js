@@ -11,5 +11,5 @@ app.use(store_router);
 app.use(order_router);
 
 sequelize.sync({ alter: true }).then(async () => {
-  app.listen(8000, () => "Server is listening");
+  app.listen(process.env.PORT, () => "Server is listening");
 });
